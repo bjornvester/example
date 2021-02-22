@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo "Hello World! From bot"
+                echo "Hello World! From bjornvester"
             }
         }
     }
