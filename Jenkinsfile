@@ -6,5 +6,10 @@ pipeline {
                 echo "Hello World! 3"
             }
         }
+        stage('build') {
+            steps {
+                echo "Hello World! From bot"
+            }
+        }
     }
 }
